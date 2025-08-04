@@ -6,3 +6,6 @@ the normal behavior of the escape key has been hardcoded into your muscle memory
 of consistent behavior across literally every other piece of software. 
 
 This module makes the Escpae key do what it's supposed to do: close the top-most window. 
+
+## Module Manifest URL
+https://raw.githubusercontent.com/mullr/close-top-window/master/module.json
