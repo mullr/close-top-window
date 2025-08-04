@@ -12,6 +12,7 @@
   ],
   "url": "https://github.com/mullr/close-top-window",
   "manifest": "https://raw.githubusercontent.com/mullr/close-top-window/master/module.json",
+  "download": "https://github.com/mullr/close-top-window/releases/download/v0.1.0/close-top-window-0.1.0.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
