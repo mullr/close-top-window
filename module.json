@@ -1,0 +1,21 @@
+{
+  "id": "close-top-window",
+  "title": "Close Top Window",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Russell Mull",
+      "discord": "mapoosa#3249",
+      "email": "russell@digitalartificer.com",
+      "url": "https://digitalartificer.com"
+    }
+  ],
+  "url": "https://github.com/mullr/close-top-window",
+  "manifest": "https://raw.githubusercontent.com/mullr/close-top-window/master/module.json",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "When you press Escape, only close the top window, instead of closing all windows.",
+  "scripts": ["scripts/closeTopWindow.js"]
+}
