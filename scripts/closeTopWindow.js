@@ -24,14 +24,16 @@ async function closeTopmostWindow() {
   }
 }
 
-game.keybindings.register("close-top-window", "close", {
-  name: "Close the topmost window",
-  hint: "Close only the topmost window.",
-  uneditable: [{ key: "Escape" }],
-  editable: [],
-  onDown: () => closeTopmostWindow,
-  onUp: () => {},
-  restricted: false,
-  reservedModifiers: [],
-  precedence: CONST.KEYBINDING_PRECEDENCE.NORMAL,
+Hooks.on("init", function () {
+  game.keybindings.register("close-top-window", "close", {
+    name: "Close the topmost window",
+    hint: "Close only the topmost window.",
+    uneditable: [{ key: "Escape" }],
+    editable: [],
+    onDown: closeTopmostWindow,
+    onUp: () => {},
+    restricted: false,
+    reservedModifiers: [],
+    precedence: CONST.KEYBINDING_PRECEDENCE.NORMAL,
+  });
 });
